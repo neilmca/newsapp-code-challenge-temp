@@ -71,7 +71,7 @@ https://github.com/neilmca/newsapp-code-challenge-temp/blob/master/data-feed.jso
 
 ```bash
 
-curl -G https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/blob/master/data-feed.json
+curl -G  https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/master/data-feed.json
 
 ```
 
@@ -89,9 +89,7 @@ https://github.com/neilmca/newsapp-code-challenge-temp/blob/master/video-meta.js
 
 ```bash
 
-curl -G
-
-https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/blob/master/video-meta.json?id=p91a64ab,p07sb8b1,p07d60yr,p66j71gh
+curl -G https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/master/video-meta.json?id=p91a64ab,p07sb8b1,p07d60yr,p66j71gh
 
 ```
 ## Considerations
