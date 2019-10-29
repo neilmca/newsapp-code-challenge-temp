@@ -60,7 +60,7 @@ E.g.
  
  https://github.com/neilmca/newsapp-code-challenge-temp/blob/master/expected-output.json
 
-Note: As per REQ5 above it is acceptable for the sequence of "story" items to vary from the example above since their order in relation to each other is unimportant.
+Note: As per REQ5 above it is acceptable for the sequence of *story* items to vary from the example above since their order in relation to each other is unimportant.
   
 ## Data Source APIs
 ### Data Feed API
@@ -94,14 +94,14 @@ curl -G
 https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/blob/master/video-meta.json?id=p91a64ab,p07sb8b1,p07d60yr,p66j71gh
 
 ```
-### Considerations
+## Considerations
 This is an opportunity to demonstrate your understanding of building a service to integrate, merge, transform data and make that available through an API. 
 
 We believe that good contributors to achieving this are typically code readability, separation of concerns and good demonstration of test coverage. 
 
 Remember we are looking for a demonstration of your skills - not perfection. A comment about what you would do next might be better than squeezing in everything, but not doing anything to your usual standard. We would typically expect this to take you a couple evenings at most.
 
-### Submissions
+## Submissions
   
 To submit your code, please create a private GitHub repo (it’s free) and share your code repo with our GitHub user, [to do](https://github.com/bbcnewsapps). Please note that we will be considering your git commit history during our evaluation.
 
