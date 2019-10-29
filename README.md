@@ -3,16 +3,21 @@
 # BBC News and Weather Apps (Javascript) Coding Challenge
 
 ## Introduction
-You have been asked to integrate with two new data sources that when merged together will provide a feed of news items to the mobile (Android and iOS) clients.
+You have been asked to integrate with two new data sources that when joined together will provide a feed of news items to the mobile (Android and iOS) clients.
 
-Data-Feed
+###Data Feed API
 Unordered list of items in the news feed
 https://github.com/neilmca/newsapp-code-challenge-temp/blob/master/data-feed.json
 ```bash
-curl -G https://raw.githubusercontent.com/bbc/news-apps-coding-challenge/master/headlines.json
-https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/blob/master/data-feed.json
+curl -G https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/blob/master/data-feed.json
 ```
-
+###Video Metadata API
+API to batch request metadata for video clips associated to news items
+https://github.com/neilmca/newsapp-code-challenge-temp/blob/master/video-meta.json
+```bash
+curl -G 
+https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/blob/master/video-meta.json?id=p91a64ab,p07sb8b1,p07d60yr,p66j71gh
+```
 
 
 You have been asked to kick off a new native iOS news app, initially consisting of two screens
