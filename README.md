@@ -22,15 +22,15 @@ The output (client) feed must merge information from the *Data Feed API* with da
 The output feed must be ordered using the following logic.
 
 The *category* field is used to order items in the following order.
-REQ1: All  items of *category": "top stories"* go first
-REQ2: All  items of *category": "most popular"* go next
-REQ3: All  items of *category": "environment"* go last
+* REQ1: All  items of *category": "top stories"* go first
+* REQ2: All  items of *category": "most popular"* go next
+* REQ3: All  items of *category": "environment"* go last
 
 There is a further business requirement that states
-REQ4: For a given category, items of *"type": "video"* should go before items of *"type": "story"* 
+* REQ4: For a given category, items of *"type": "video"* should go before items of *"type": "story"* 
 
 And finally,
-REQ5: The ordering of a sequence of items of the same *type* is unimportant. E.g. For example, if there are three *story* items below a *video* item then the order of the individual story items in relation to each other does not matter.
+* REQ5: The ordering of a sequence of items of the same *type* is unimportant. E.g. For example, if there are three *story* items below a *video* item then the order of the individual story items in relation to each other does not matter.
 
 ### DateTime Requirements
 
