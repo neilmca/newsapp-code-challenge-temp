@@ -1,0 +1,32 @@
+[
+    {
+        "id": "p66j71gh",
+        "duration_secs" : 186,
+        "caption": "London's Natural History Museum dippy skeleton",
+        "placeholder_image": "ichef.bbci.co.uk/images/ic/$recipe/p77d39ke.jpg",
+        "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p71s19to"
+    },
+    {
+        "id" : "p07sb8b1",
+        "duration_secs" : 180,
+        "caption": "Lab kit",
+        "placeholder_image": "ichef.bbci.co.uk/images/ic/$recipe/p06p0n2v.jpg",
+        "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p06m7pt5"
+    },
+    {
+        "id" : "p07d60yr",
+        "duration_secs" : 98,
+        "caption": "Signal path",
+        "placeholder_image": "ichef.bbci.co.uk/images/ic/$recipe/p55e60yi.jpg",
+        "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p99w2qw9"
+    },
+    {
+        "id": "p91a64ab",
+        "duration_secs" : 44,
+        "caption": "London's Natural History Museum",
+        "placeholder_image": "ichef.bbci.co.uk/images/ic/$recipe/p20r19jw.jpg",
+        "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p55q1pd4"
+
+    }
+    
+]
