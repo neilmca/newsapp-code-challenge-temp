@@ -15,7 +15,7 @@ The feed is constructed by integrating with two data sources.
 
 
 * *[Data Feed API](#data-feed-api)* which returns a list of news items
-* *[Video Meta API](#video-meta-api)* which returns metadata about video clips in the news feed
+* *[Video Meta API](#video-metadata-api)* which returns metadata about video clips in the news feed
 
 The output (client) feed must merge information from the *Data Feed API* with data from the *Video Meta API* to produce an API endpoint that conforms to the requirements laid out below.
 
