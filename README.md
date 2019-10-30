@@ -11,8 +11,11 @@
 You have been asked to develop a Node.js service that will expose an API to deliver a feed of news items to clients.
 
 The feed is constructed by integrating with two data sources.
-* *Data Feed API* which returns a list of news items
-* *Video Meta API* which returns metadata about video clips in the news feed
+
+
+
+* *[Data Feed API](#data-feed-api)* which returns a list of news items
+* *[Video Meta API](#video-meta-api)* which returns metadata about video clips in the news feed
 
 The output (client) feed must merge information from the *Data Feed API* with data from the *Video Meta API* to produce an API endpoint that conforms to the requirements laid out below.
 
@@ -22,9 +25,9 @@ The output (client) feed must merge information from the *Data Feed API* with da
 The output feed must be ordered using the following logic.
 
 The *category* field is used to order items in the following order.
-* REQ1: All  items of *category": "top stories"* go first
-* REQ2: All  items of *category": "most popular"* go next
-* REQ3: All  items of *category": "environment"* go last
+* REQ1: All  items of *"category": "top stories"* go first
+* REQ2: All  items of *"category": "most popular"* go next
+* REQ3: All  items of *"category": "environment"* go last
 
 There is a further business requirement that states
 * REQ4: For a given category, items of *"type": "video"* should go before items of *"type": "story"* 
@@ -56,7 +59,7 @@ E.g.
 ```
 
 ## Example Output Feed
- Given business rules above and for the example data set provided the expected output feed will look like:
+ Given the business rules above and for the example data set provided the expected output feed will look like:
  
  https://github.com/neilmca/newsapp-code-challenge-temp/blob/master/expected-output.json
 
@@ -77,7 +80,7 @@ curl -G  https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/m
 
   
 
-An item can either be of type *story* or of type *video*. Items of type *video* will have an *video_id* (e.g. "video_id":"p07sb8b1") field that can be used in a batch call to the Video Metadata API to return metadata needed to included in the output feed to the clients.
+An item can either be of type *story* or of type *video*. Items of type *video* will have a *video_id* (e.g. "video_id":"p07sb8b1") field that can be used in a batch call to the *Video Metadata API* to return video metadata needed to included in the output feed to the clients.
 
   
 
