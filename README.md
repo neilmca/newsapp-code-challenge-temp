@@ -95,7 +95,7 @@ curl -G https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/ma
 
 ```
 
-##Criteria
+## Criteria
 
 We would like you to use Node.js and JS (>ES5). It is fine to use third-party libraries in your solution.
 
