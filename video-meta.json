@@ -7,6 +7,13 @@
         "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p71s19to"
     },
     {
+        "id" : "p88da2b5",
+        "duration_secs" : 180,
+        "caption": "Squirrel stuck in tree",
+        "placeholder_image": "ichef.bbci.co.uk/images/ic/$recipe/p98a2b5v.jpg",
+        "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p22csl7ty1"
+    },
+    {
         "id" : "p07sb8b1",
         "duration_secs" : 180,
         "caption": "Lab kit",
