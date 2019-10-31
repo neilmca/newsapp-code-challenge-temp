@@ -39,7 +39,7 @@ Given a feed consisting of items A, B, C, D where they all the same category, bu
 
 ### DateTime Requirements
 
-The Data Feed API has an *updated* field that  holds the last time the item was updated. It is a timestamp in epoch time but the output API should instead return this in an ISO 8601 UTC format.
+The Data Feed API has an *updated* field that  holds the last time the item was updated. It is a timestamp in epoch time but the output API should instead return in the format below.
 
 ```DD MMM YYYY```
 
@@ -81,8 +81,7 @@ curl -G  https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/m
 
 ```
 
-An item can either be of type *story* or of type *video*. Items of type *video* will have a *video_id* (e.g. "video_id":"p07sb8b1") field that can be used in a batch call to the *Video Metadata API* to return video metadata needed to be included in the output feed to the clients.
-
+An item can either be of type *story* or of type *video*. Items of type *video* will have a *video_id* (e.g. "video_id":"p07sb8b1"). The *video_id* field maps to the the *id* field in the video metadata returned from the *Video Metadata API*.
   
 
 ### Video Metadata API
@@ -110,7 +109,7 @@ Remember we are looking for a demonstration of your skills - not perfection. A c
 
 ## Submissions
   
-To submit your code, please create a private GitHub repo (it’s free) and share your code repo with our GitHub user, [to do](https://github.com/bbcnewsapps). Please note that we will be considering your git commit history during our evaluation.
+To submit your code, please create a private GitHub repo (it’s free) and share your code repo with our GitHub user, [newsapps-js](https://github.com/newsapps-js). Please note that we will be considering your git commit history during our evaluation.
 
 _Under no circumstances make the repository public._
 
