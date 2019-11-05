@@ -5,7 +5,8 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,8 @@
   "homepage": "https://github.com/neilmca/newsapp-code-challenge-temp#readme",
   "dependencies": {
     "jest": "^24.9.0",
-    "koa": "^2.11.0"
+    "koa": "^2.11.0",
+    "moment": "^2.24.0"
   },
   "jest": {
     "testMatch": [

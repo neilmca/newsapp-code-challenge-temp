@@ -8,7 +8,8 @@ const newsFeed = JSON.parse(fs.readFileSync('../data-feed.json'));
 const videoFeed = JSON.parse(fs.readFileSync('../video-meta.json'));
 
 app.use((ctx) => {
-	ctx.body = feedGenerator(newsFeed, videoFeed);
+	return feedGenerator(newsFeed, videoFeed)
+		.then((result) => { ctx.body = result});
 });
 
 app.listen(3120, () => {

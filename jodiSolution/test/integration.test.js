@@ -8,6 +8,9 @@ const videoFeed = JSON.parse(fs.readFileSync('../video-meta.json'));
 describe('Integration Test of Feed Generator', () => {
 
 	test('Can produce expected output with given input', () => {
-		expect(feedGenerator(newsFeed, videoFeed)).toEqual(expectedOutput);
+		return feedGenerator(newsFeed, videoFeed)
+			.then((result) => {
+				expect(result).toEqual(expectedOutput);
+			});
 	});
 });
