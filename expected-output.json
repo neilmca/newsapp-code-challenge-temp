@@ -1,5 +1,17 @@
 [
     {
+        "headline":"The vegan leather brewed in a lab",
+        "updated":"27 Nov 2015", 
+        "type": "video",
+        "category": "top stories",
+        "video" : {
+            "duration" : "3m 1s",
+            "caption": "Lab kit",
+            "placeholder_image": "ichef.bbci.co.uk/images/ic/$recipe/p06p0n2v.jpg",
+            "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p06m7pt5"
+        }
+    },
+    {
         "headline":"Mysterious radio signals from deep space detected",
         "updated":"27 Nov 2015",
         "introduction":"Astronomers have revealed details of mysterious signals emanating from a distant galaxy, picked up by a telescope in Canada.",
@@ -13,20 +25,8 @@
         }
     },
     {
-        "headline":"The vegan leather brewed in a lab",
-        "updated":"27 Nov 2015", 
-        "type": "video",
-        "category": "top stories",
-        "video" : {
-            "duration" : "3m 1s",
-            "caption": "Lab kit",
-            "placeholder_image": "ichef.bbci.co.uk/images/ic/$recipe/p06p0n2v.jpg",
-            "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p06m7pt5"
-        }
-    },
-    {
         "headline":"Neanderthals 'could kill at a distance'", 
-        "updated":" 27 Nov 2015", 
+        "updated":"27 Nov 2015", 
         "introduction":"Neanderthals may once have been considered to be our inferior, brutish cousins, but a new study is the latest to suggest they were smarter than we thought - especially when it came to hunting.",
         "type":"story",
         "category": "top stories"
@@ -60,7 +60,7 @@
     },
     {
         "headline":"What makes people deeply dippy for dinosaurs?", 
-        "updated":" 2 Apr 2016", 
+        "updated":"2 Apr 2016", 
         "introduction":"The Natural History Museum's most famous resident is on tour - and the crowds gathering to see Dippy suggest a dinosaur love affair that's far from extinct. But what explains this gut-level fascination for doomed reptiles from which we are separated by millions of years?",
         "type":"video",
         "category": "most popular",
@@ -80,7 +80,7 @@
     },
     {
         "headline":"'Green gold' tree offers Brazil deforestation hope", 
-        "updated":"5 May 2019", 
+        "updated":"5 May 2018", 
         "introduction":"Trees that help keep soils fertile could slow or stop deforestation in Brazil's arc of destruction.",
         "type":"story",
         "category": "environment"

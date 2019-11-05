@@ -35,9 +35,9 @@ Given a feed consisting of items A, B, C, D where they all the same category, bu
 
 The Data Feed API has an *updated* field that  holds the last time the item was updated. It is a timestamp in epoch time but the output API should instead return in the format below.
 
-```DD MMM YYYY```
+```D MMM YYYY```
 
-E.g. *"updated":"30 Oct 2019"*
+E.g. *"updated":"12 Oct 2019"*
 
 ### Enriching the Data Feed with Video Metadata Requirements
 
