@@ -1,18 +1,12 @@
 # newsapp-code-challenge-temp
 
-  
-
-# BBC News and Weather Apps (Javascript) Coding Challenge
-
-  
+# BBC News and Weather Apps (Javascript) Coding Challenge  
 
 ## Introduction
 
 You have been asked to develop a Node.js API endpoint to deliver a feed of news items to clients.
 
 The feed is constructed by integrating with two data sources.
-
-
 
 * *[Data Feed API](#data-feed-api)* which returns a list of news items
 * *[Video Meta API](#video-metadata-api)* which returns metadata about video clips in the news feed

@@ -1,21 +1,21 @@
 [
     {
         "id": "p66j71gh",
-        "duration_secs" : 186,
+        "duration_secs" : 133,
         "caption": "London's Natural History Museum dippy skeleton",
         "placeholder_image": "ichef.bbci.co.uk/images/ic/$recipe/p77d39ke.jpg",
         "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p71s19to"
     },
     {
         "id" : "p88da2b5",
-        "duration_secs" : 180,
+        "duration_secs" : 207,
         "caption": "Squirrel stuck in tree",
         "placeholder_image": "ichef.bbci.co.uk/images/ic/$recipe/p98a2b5v.jpg",
         "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p22csl7ty1"
     },
     {
         "id" : "p07sb8b1",
-        "duration_secs" : 180,
+        "duration_secs" : 181,
         "caption": "Lab kit",
         "placeholder_image": "ichef.bbci.co.uk/images/ic/$recipe/p06p0n2v.jpg",
         "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p06m7pt5"
@@ -29,7 +29,7 @@
     },
     {
         "id": "p91a64ab",
-        "duration_secs" : 44,
+        "duration_secs" : 71,
         "caption": "London's Natural History Museum",
         "placeholder_image": "ichef.bbci.co.uk/images/ic/$recipe/p20r19jw.jpg",
         "video_url" : "http://open.live.bbc.co.uk/mediaselector/format/json/mediaset/mobile-phone-main/vpid/p55q1pd4"
