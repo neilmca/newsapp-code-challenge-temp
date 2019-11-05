@@ -1,0 +1,29 @@
+{
+  "name": "newsapp-code-challenge-temp",
+  "version": "1.0.0",
+  "description": "Jodi's test submission",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilmca/newsapp-code-challenge-temp.git"
+  },
+  "author": "Jodi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neilmca/newsapp-code-challenge-temp/issues"
+  },
+  "homepage": "https://github.com/neilmca/newsapp-code-challenge-temp#readme",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "koa": "^2.11.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.test.js"
+    ]
+  }
+}
