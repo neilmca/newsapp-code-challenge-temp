@@ -21,7 +21,8 @@
   "dependencies": {
     "jest": "^24.9.0",
     "koa": "^2.11.0",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "superagent": "^5.1.0"
   },
   "jest": {
     "testMatch": [
