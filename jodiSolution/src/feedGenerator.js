@@ -19,11 +19,12 @@ function reorderFeed(newsFeed) {
 	//	Reassemble them into the right order
 	let orderedFeed = [];
 	categoryOrder.forEach((category) => {
-		const { video, story } = feeds[category];
+		const { feature, video, story } = feeds[category];
 
 		orderedFeed = [
-			...orderedFeed, 
-			...(video ? video : []), 
+			...orderedFeed,
+			...(feature ? feature : []),
+			...(video ? video : []),
 			...(story ? story : [])
 		];
 	});
@@ -43,11 +44,18 @@ function mergeVideoFeed(newsFeed, videoFeed) {
 }
 
 function decorate(feed) {
+	const currentYear = moment().year();
+
 	return Promise.resolve(feed.map((item) => {
 		const { updated, video, ...restOfItem } = item;
-		if (updated) {
-			restOfItem.updated = moment.unix(updated).format('D MMM YYYY');
+		const isFeature = item.type && item.type === 'feature';
+
+		if (updated && !isFeature) {
+			const updatedObj = moment.unix(updated);
+			const displayFormat = updatedObj.year() === currentYear ? 'D MMM YYYY' : 'YYYY';
+			restOfItem.updated = updatedObj.format(displayFormat);
 		}
+
 		if (video) {
 			const { duration_secs, ...restOfVideo } = video;
 			const duration = `${Math.floor(video.duration_secs / 60)}m ${video.duration_secs % 60}s`;

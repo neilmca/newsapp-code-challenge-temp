@@ -14,7 +14,7 @@ app.use((ctx) => {
 
 function updateFeeds() {
 	return Promise.all([
-		fetch.get('https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/master/data-feed.json'),
+		fetch.get('https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/master/data-feed-extended.json'),
 		fetch.get('https://raw.githubusercontent.com/neilmca/newsapp-code-challenge-temp/master/video-meta.json')
 	])
 	.then(([feed, video]) => {
